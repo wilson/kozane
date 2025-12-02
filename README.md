@@ -25,7 +25,7 @@ Kozane is not "installed"; it is forged. We rely on a strict chain-of-trust and 
 *   **[mkosi](https://github.com/systemd/mkosi)** (Make OS Image) — The forge. Generates the immutable system images with hermetic reproducibility.
 *   **[systemd](https://systemd.io/)** — The lacing (*odoshi*). Provides the `sysupdate`, `repart`, and `creds` mechanisms that bind the system together and secure it at rest.
 *   **[CUE](https://cuelang.org/)** — The blueprint. A unified, rigorously validated configuration language that generates the system state before a single byte is written to disk.
-*   **(https://ostreedev.github.io/ostree/)** — The memory. Provides content-addressed versioning for the system binaries, ensuring atomic transitions and distinct history.
+*   **[OSTree](https://ostreedev.github.io/ostree/)** — The memory. Provides content-addressed versioning for the system binaries, ensuring atomic transitions and distinct history.
 *   **[Podman](https://podman.io/)** & **[Incus](https://linuxcontainers.org/incus/)** — The capacity. Strictly confined containers for all applications and "pet" workspaces, keeping the host pure.
 *   **([https://bazzite.gg/](https://bazzite.gg/))** — The proprietary steel ingredients. We inherit high-performance kernel patches (fsync/futex2) to ensure the armor does not hinder the warrior's movement.
 
