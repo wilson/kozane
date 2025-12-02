@@ -19,6 +19,8 @@ CUE is full of deep ideas, it may take some time to absorb.
 
 Kozane is not trying to be anyone's first Linux-based OS, only their last.
 
+Bottom-line, the intent is to only require a hard reboot to fix a security vulnerability in the Linux kernel.  
+
 ## The Materials (Dependencies)
 
 Kozane is not "installed"; it is forged. We rely on a strict chain-of-trust and powerful tools to build the system image.
