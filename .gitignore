@@ -1,0 +1,6 @@
+# user-specified overrides of defaults in skel/
+/id.haga
+/architecture.haga
+/policy.haga
+# generated artifacts for human review
+/debug/

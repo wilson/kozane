@@ -1,0 +1,27 @@
+# id.haga
+# -----------------------------------------------------------------------------
+# INSTANCE IDENTITY
+# Profile: "nil" (無)
+# -----------------------------------------------------------------------------
+
+scope identity {
+  # Alter this when the system earns a name.
+  must hostname "nil"
+}
+
+scope bindings {
+  # NETWORK BINDINGS
+  # modal: any (0..N) | noun: interface | args: logical, physical
+  # Use "default" for the first-available, or a MAC address for more precision.
+  any interface "lan0", "default"
+  # (Simply don't specify any if this machine is airgapped.)
+
+  # STORAGE BINDINGS
+  # modal: any (0..N) | noun: volume | args: logical, physical
+  # Connects the abstract "vault" volume request to a physical disk/partition:
+  any volume "vault", "label:vault"
+  # (Unnecessary if the machine is meant to be ephemeral as well as immutable.)
+  # GPT labels are preferred, but other disk-addressing approaches are supported:
+  # any volume "vault", "uuid:00000000-0000-0000-0000-000000000000"
+}
+# vim: set filetype=ruby :
