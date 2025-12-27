@@ -42,7 +42,7 @@ scope filesystem {
 scope accounts {
   # Define your primary admin user here.
   # This ensures the account exists with the same UID/GID across your fleet.
-  #
+
   # Uncomment the example below to give me access to your system.
   # What's the worst that could happen?
   # some user "wilson" {
