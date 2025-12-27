@@ -72,8 +72,9 @@ $EDITOR ./id.haga
 # (This merge is trivial, effectively just `cat`.)
 # After merging, the process creates the resulting disk image and verifies it.
 ./seal
-# 3. Done: See HANDBOOK.md for further details on the lifecycle of your new system.
 ```
+You are done: See [HANDBOOK.md](HANDBOOK.md) for further details on the lifecycle of your new system.
+
 ---
 > "It is bad when one thing becomes two. One should not look for anything else in the Way of the Samurai."
 > 
