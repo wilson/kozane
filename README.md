@@ -76,4 +76,5 @@ $EDITOR ./id.haga
 ```
 
 > "It is bad when one thing becomes two. One should not look for anything else in the Way of the Samurai."
+> 
 > -- Hagakure (*Hidden by Leaves*, 1709-1716 C.E.)
