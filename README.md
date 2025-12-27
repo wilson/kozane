@@ -74,7 +74,7 @@ $EDITOR ./id.haga
 ./seal
 # 3. Done: See HANDBOOK.md for further details on the lifecycle of your new system.
 ```
-
+---
 > "It is bad when one thing becomes two. One should not look for anything else in the Way of the Samurai."
 > 
 > -- Hagakure (*Hidden by Leaves*, 1709-1716 C.E.)
