@@ -18,12 +18,12 @@ Only a kernel security fix (or proprietary GPU driver demand) should ever requir
 
 ## Architecture
 
-Kozane is not a distribution; it is a **composition** of high-assurance components:
+Kozane is not a distribution; it is a **composition** of orthogonal components:
 
 * **Kernel:** [Bazzite Kernel Project](https://github.com/bazzite-org/kernel-bazzite/).
-* **Userland:** [ChimeraUtils](https://github.com/chimera-linux/chimerautils/) (FreeBSD userland overlay).
-* **Mechanism:** [systemd-sysext](https://github.com/systemd/systemd/tree/main/src/sysext/) merging `/usr/local` at runtime.
-* **Secrets:** Sealed to the hardware via TPM2 with [systemd-creds](https://github.com/systemd/systemd/tree/main/src/creds/).
+* **Userland Overlays:** Zero or more, such as [ChimeraUtils](https://github.com/chimera-linux/chimerautils/) (FreeBSD coreutils replacements).
+* **Mechanism:** [systemd-sysext](https://github.com/systemd/systemd/tree/main/src/sysext/) managing `/usr/local` at runtime.
+* **Secrets:** Optionally sealed to the hardware via TPM2 with [systemd-creds](https://github.com/systemd/systemd/tree/main/src/creds/).
 
 ## The Manifest Format
 
