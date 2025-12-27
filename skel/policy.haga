@@ -24,6 +24,7 @@ scope networking {
 scope features {
   # Installs (one or more) "userland overlays" with specified priority.
   any overlay 70, "https://github.com/chimera-linux/chimerautils"
+
   # Certain system configs may "force" this into enablement.
   # This is expressing the preference for secure-boot to be disabled.
   # Guaranteeing that here at "compile-time" does not seem to be possible.
